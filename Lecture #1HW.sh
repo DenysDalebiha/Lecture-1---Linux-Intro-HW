@@ -1,8 +1,8 @@
 mkdir cursor
 touch test.txt
 cp test.txt cursor/
-ls -a
-ls ~ -Sra
+ls -l
+ls ~ -Srl
 mv test.txt new_test.txt
 touch empty_file.txt
 rm new_test.txt empty_file.txt
