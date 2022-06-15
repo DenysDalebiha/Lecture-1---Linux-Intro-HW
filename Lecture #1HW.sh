@@ -21,7 +21,7 @@ cat hw.txt
 sudo chmod 700 hw.txt
 cat hw.txt
 head -n7 hw.txt
-echo Hello test.sh
+echo Hello >> test.sh
 sudo chmod 777 test.txt
 test.sh
 find ~ -name ".sh"
