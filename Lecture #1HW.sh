@@ -2,7 +2,7 @@ mkdir cursor
 touch test.txt
 cp test.txt cursor/
 ls -l
-ls ~ -Srl
+ls -la -r ~
 mv test.txt new_test.txt
 touch empty_file.txt
 rm new_test.txt empty_file.txt
@@ -23,5 +23,5 @@ cat hw.txt
 head -n7 hw.txt
 echo Hello >> test.sh
 sudo chmod 777 test.txt
-test.sh
+./test.sh
 find ~ -name ".sh"
